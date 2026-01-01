@@ -9,12 +9,12 @@ import { addDoc, collection, getFirestore } from "firebase/firestore";
 import { toast } from "react-toastify";
 
 const firebaseConfig = {
-  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
-  authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
-  projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
-  storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
-  appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID
+  apiKey: "AIzaSyDnq9_2fVVynXfl90gP-tyPGqbovzx-958",
+  authDomain: "netflix-clone-3325c.firebaseapp.com",
+  projectId: "netflix-clone-3325c",
+  storageBucket: "netflix-clone-3325c.firebasestorage.app",
+  messagingSenderId: "15227405287",
+  appId: "1:15227405287:web:0375461b7119a12dccb342"
 };
 
 const signup = async (name, email, password) => {
